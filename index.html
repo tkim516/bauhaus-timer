@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>0m 0s</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+  </head>
+  <body class="body">
+    <div class="titleContainer">
+      <h1 class="staatliches-regular title">Define</h1>
+      <h1 class="staatliches-regular title">your</h1>
+      <h1 class="staatliches-regular title">intention</h1>
+    </div>
+    <div class="staatliches-regular rightContainer">
+      <div class="timerContainer">
+        <div class="timer" id="timer">0m 0s</div>
+        <div class="staatliches-regular timerDenominator">25m 0s</input>
+      </div> 
+      <div class="buttonContainer">
+        <button class="staatliches-regular myButton" id="startButton">Start</button>
+        <button class="staatliches-regular myButton" id="stopButton">Stop</button>
+        <button class="staatliches-regular myButton" id="resetButton">Reset</button>
+        <div class="dropdown">
+          <button 
+            onclick="dropdownFunction()" 
+            class="staatliches-regular dropdownButton ">
+            Set Time
+          </button>
+          <div id="timerDropdown" class="dropdownContent">
+            <div>5</div>
+            <div>10</div>
+            <div>15</div>
+            <div>20</div>
+            <div>25</div>
+            <div>30</div>
+            <div>35</div>
+            <div>40</div>
+            <div>45</div>
+            <div>50</div>
+            <div>55</div>
+            <div>60</div>
+          </div>    
+        </div>
+      <div>
+    </div>
+    <div class="yellowBar"></div>
+    <!-- Initial display
+     <div class="inputContainer">
+      <text class="setTimeText">Set time:</text>
+      <input class="myInput" id="timerInput" placeholder="25"></input>
+     </div>
+     <div class="buttonContainer">
+      <button class="myButton" id="startButton">Start</button>
+      <button class="coral myButton" id="stopButton">Stop</button>
+      <button class="coral myButton" id="resetButton">Reset</button>
+    </div>
+  -->
+    <div class="clockContainer">
+      <div class="clockFace">
+        <!--
+        <div class="label sixty">00</div> 
+        <div class="label fifteen">15</div>
+        <div class="label thirty">30</div>
+        <div class="label fortyFive">45</div>-->
+        <!--
+        <div class="tickMark">
+          <div class="mark"></div>
+          
+          <div class="mark"></div>
+          <div class="mark"></div>
+          <div class="mark"></div>
+          <div class="mark"></div>
+          <div class="mark"></div>
+          <div class="mark"></div>
+          <div class="mark"></div>
+          <div class="mark"></div>
+          <div class="mark"></div>
+          <div class="mark"></div>
+          <div class="mark"></div>
+        
+        </div>
+        -->
+        <div class="blue hands minuteHand"></div>
+        <div class="hands secondHand"></div>
+        <div class="clockOrigin"></div>
+      </div>
+    </div>
+    <div class="verticalLine"></div>
+    <div class="inputTextContainer">
+      <input class="staatliches-regular inputText" type="text"></input>
+    </div>
+    
+    <script src="index.js"></script>
+  </body>
+</html>
